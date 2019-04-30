@@ -1,0 +1,64 @@
+.card {
+  margin: 350px 350px 350px 350px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8e0de+0,aebfbc+22,99afab+33,8ea6a2+50,829d98+67,4e5c5a+82,0e0e0e+100;Grey+3D */
+background: #d8e0de; /* Old browsers */
+background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+.grid {
+  height: auto;
+  display: grid;
+  grid-template-columns: 55% 45%
+}
+.left{
+  display: grid;
+  grid-template-columns: 50%, 50%;
+}
+.left1{
+  grid-column: 1;
+  
+}
+.left2{
+grid-column: 2; 
+font-weight: 700;
+text-align: center;
+}
+.right {
+
+  display: grid;
+  grid-template-columns: 50%, 50%;
+  grid-template-rows: 10%, 45%, 45%;
+}
+.right1{
+  grid-column: 1 / span 2;
+  grid-row: 1 /span;
+  text-align: center;
+  font-weight: 700;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0px
+}
+header {
+  margin-bottom: -17px;
+}
+footer{
+  text-align: left;
+}
+/* Style logo */
+.logo1:hover {
+  opacity: 0.7;
+}
+
+.logo2:hover {
+  opacity: 0.7;
+}
+
+.logo3:hover {
+  opacity: 0.7;
+}
